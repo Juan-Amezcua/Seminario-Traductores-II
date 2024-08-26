@@ -1,6 +1,3 @@
-# Seminario-Traductores-II
-Seminario Traductores II
-
 # Analizador Léxico Básico en Python
 
 Este proyecto implementa una versión simplificada de un analizador léxico en Python. El analizador es capaz de tokenizar una cadena de entrada y clasificar los tokens en categorías básicas.
