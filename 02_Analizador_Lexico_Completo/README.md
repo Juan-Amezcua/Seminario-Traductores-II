@@ -1,4 +1,4 @@
-# Analizador Léxico en Python
+# Analizador Léxico Completo
 
 Este proyecto implementa un analizador léxico simple en Python. El analizador es capaz de tokenizar una cadena de entrada y clasificar los tokens en diferentes categorías.
 
