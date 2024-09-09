@@ -73,7 +73,7 @@ if __name__ == "__main__":
     analizador_lexico = AnalizadorLexico()
 
     parser1 = Parser(analizador_lexico, pila, tabla_transicion_r1)
-    parser1.analizar("a + b")
+    parser1.analizar("hola + mundo")
 
     parser2 = Parser(analizador_lexico, pila, tabla_transicion_r2)
     parser2.analizar("a + b + c + d + e + f")
