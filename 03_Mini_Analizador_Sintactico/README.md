@@ -39,3 +39,12 @@ Para usar el analizador sintáctico, ejecute el script `main.py`
 
 - Estructura de datos auxiliar para el análisis sintáctico.
 - Implementada en la clase `Pila` en `pila.py`.
+
+### Cadena "hola + mundo"
+
+![Captura de pantalla 2024-09-09 123750](https://github.com/user-attachments/assets/eb7debd6-c856-4b64-9823-d0b653247623)
+
+### Cadena "a + b + c + d + e + f"
+
+![Captura de pantalla 2024-09-09 123820](https://github.com/user-attachments/assets/7d75c700-422e-4cfb-a8ea-4be9b109bace)
+
