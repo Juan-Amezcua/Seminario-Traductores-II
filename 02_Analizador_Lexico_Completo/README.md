@@ -18,4 +18,8 @@ El proyecto consta de tres archivos principales:
 
 ## Uso
 
-Para usar el analizador léxico, ejecute el script `main.py`:
+Para usar el analizador léxico, ejecute el script `main.py`
+
+### Resultado
+
+![Captura de pantalla 2024-09-09 122723](https://github.com/user-attachments/assets/c8290065-813f-465c-a9c1-71858c246aaf)
