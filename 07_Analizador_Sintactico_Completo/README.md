@@ -1,4 +1,4 @@
-# Analizador Léxico y Sintáctico en Python
+# Analizador Sintáctico Completo
 
 Este proyecto implementa un **analizador léxico y sintáctico** para un lenguaje de programación simplificado, escrito en Python. El analizador léxico tokeniza una cadena de entrada, mientras que el analizador sintáctico verifica la estructura gramatical utilizando una tabla LR.
 
