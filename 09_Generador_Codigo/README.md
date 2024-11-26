@@ -133,7 +133,7 @@ c = suma(8,9);
 
 Este proyecto implementa un compilador funcional que procesa código fuente hasta la fase de análisis semántico. El objetivo principal es garantizar que el código no solo sea válido en términos gramaticales, sino también lógico y coherente, validando aspectos como tipos de datos, declaraciones de variables, funciones y estructuras de control.
 
-# Características Principales
+### Características Principales
 
 - **Analizador Léxico:**
   - Divide el código en tokens como identificadores, palabras clave y operadores.
@@ -157,7 +157,7 @@ Este proyecto implementa un compilador funcional que procesa código fuente hast
   - compilador.lr: Archivo que contiene la tabla LR utilizada por el analizador sintáctico.
   - Documentacion: Documento que explica el diseño y las decisiones de implementación.
 
-# Ejemplos input
+### Ejemplos input
 
 **Cadena (semánticamente incorrecta): 
 int main(){
