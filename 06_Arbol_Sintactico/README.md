@@ -20,3 +20,34 @@ Este proyecto implementa un **analizador léxico y sintáctico** para un lenguaj
   - categoria_token.py: Define las categorías de tokens utilizadas en el análisis.
   - compilador.lr: Archivo que contiene la tabla LR utilizada por el analizador sintáctico.
   - Documentacion: Documento que explica el diseño, las decisiones de implementación y el manejo de errores.
+
+## Ejemplos input
+
+**Cadena: int x ;**
+
+![Captura de pantalla 2024-11-26 023553](https://github.com/user-attachments/assets/360ff8d5-7a9a-4fab-93f1-34b7c6aed5f2)
+
+**Cadena: 
+int x ;
+float y;**
+
+![Captura de pantalla 2024-11-26 023712](https://github.com/user-attachments/assets/953a4942-0bed-495e-ae7e-1bdcd251ccd0)
+
+**Cadena: int x, y, z ;**
+
+![Captura de pantalla 2024-11-26 023747](https://github.com/user-attachments/assets/12b029f1-7eb2-4aea-8927-b47a8b190830)
+
+**Cadena: 
+int a;
+int suma(int a, int b){
+return a+b;
+}
+int main(){
+float a;
+int b;
+int c;
+c = a+b;
+c = suma(8,9);
+}**
+
+![Captura de pantalla 2024-11-26 023946](https://github.com/user-attachments/assets/06bb455d-4c6f-46e8-aa30-10991763e1dd)
