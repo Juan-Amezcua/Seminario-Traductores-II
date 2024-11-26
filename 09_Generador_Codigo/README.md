@@ -14,7 +14,7 @@ Este proyecto implementa una versión simplificada de un analizador léxico en P
 
 ![Captura de pantalla 2024-09-09 122937](https://github.com/user-attachments/assets/6471823a-932e-4d6e-8617-14a661660c23)
 
-# Analizador Léxico Completo
+## Analizador Léxico Completo
 
 Este proyecto implementa un analizador léxico simple en Python. El analizador es capaz de tokenizar una cadena de entrada y clasificar los tokens en diferentes categorías.
 
