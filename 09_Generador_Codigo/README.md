@@ -2,6 +2,8 @@
 
 ## Mini Analizador Lexico
 
+<a href="https://github.com/Juan-Amezcua/Seminario-Traductores-II/tree/main/01_Mini-Analizador_Lexico">Archivos de esta sección</a><br>
+
 Este proyecto implementa una versión simplificada de un analizador léxico en Python. El analizador es capaz de tokenizar una cadena de entrada y clasificar los tokens en categorías básicas.
 
 ### Características
