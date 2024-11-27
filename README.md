@@ -1,6 +1,8 @@
 # Proyecto Compilador
 
-## Mini Analizador Lexico
+## Mini Analizador Léxico
+
+<a href="https://github.com/Juan-Amezcua/Seminario-Traductores-II/tree/main/01_Mini-Analizador_Lexico">Archivos de esta sección - Mini Analizador Léxico</a><br>
 
 Este proyecto implementa una versión simplificada de un analizador léxico en Python. El analizador es capaz de tokenizar una cadena de entrada y clasificar los tokens en categorías básicas.
 
@@ -16,6 +18,8 @@ Este proyecto implementa una versión simplificada de un analizador léxico en P
 
 ## Analizador Léxico Completo
 
+<a href="https://github.com/Juan-Amezcua/Seminario-Traductores-II/tree/main/02_Analizador_Lexico_Completo">Archivos de esta sección - Analizador Léxico Completo</a><br>
+
 Este proyecto implementa un analizador léxico simple en Python. El analizador es capaz de tokenizar una cadena de entrada y clasificar los tokens en diferentes categorías.
 
 ### Características
@@ -29,6 +33,8 @@ Este proyecto implementa un analizador léxico simple en Python. El analizador e
 ![Captura de pantalla 2024-09-09 122723](https://github.com/user-attachments/assets/c8290065-813f-465c-a9c1-71858c246aaf)
 
 ## Analizador Léxico y Sintáctico en Python
+
+<a href="https://github.com/Juan-Amezcua/Seminario-Traductores-II/tree/main/04_Analizador_Sintactico_Objetos">Archivos de esta sección - Analizador Léxico y Sintáctico</a><br>
 
 Este proyecto implementa un **analizador léxico y sintáctico** para un lenguaje de programación simplificado, escrito en Python. El programa es una versión anterior al analizador completo, centrado en demostrar las fases iniciales del análisis léxico y sintáctico.
 
@@ -58,6 +64,8 @@ Este proyecto implementa un **analizador léxico y sintáctico** para un lenguaj
 ![imagen](https://github.com/user-attachments/assets/ce9e573e-3125-4b1f-b78c-fe32db40265b)
 
 ## Analizador Léxico y Sintáctico en Python (Gramática del Compilador)
+
+<a href="https://github.com/Juan-Amezcua/Seminario-Traductores-II/tree/main/05_Gramatica_Compilador">Archivos de esta sección - Analizador Sintáctico con Gramática del Compilador</a><br>
 
 Este proyecto implementa un **analizador léxico y sintáctico** para un lenguaje de programación simplificado, escrito en Python. El analizador léxico tokeniza una cadena de entrada, mientras que el analizador sintáctico verifica la estructura gramatical utilizando una tabla LR.
 
@@ -96,6 +104,8 @@ Este proyecto implementa un **analizador léxico y sintáctico** para un lenguaj
 
 ## Analizador Léxico y Sintáctico en Python (Árbol Sintáctico)
 
+<a href="https://github.com/Juan-Amezcua/Seminario-Traductores-II/tree/main/06_Arbol_Sintactico">Archivos de esta sección - Árbol Sintáctico </a><br>
+
 Analizador sintáctico completo adaptado para mostrar el árbol sintáctico
 
 ### Ejemplos input
@@ -131,9 +141,11 @@ c = suma(8,9);
 
 ## Analizador Semántico
 
+<a href="https://github.com/Juan-Amezcua/Seminario-Traductores-II/tree/main/08_Analizador_Semantico">Archivos de esta sección - Analizador Semántico </a><br>
+
 Este proyecto implementa un compilador funcional que procesa código fuente hasta la fase de análisis semántico. El objetivo principal es garantizar que el código no solo sea válido en términos gramaticales, sino también lógico y coherente, validando aspectos como tipos de datos, declaraciones de variables, funciones y estructuras de control.
 
-# Características Principales
+### Características Principales
 
 - **Analizador Léxico:**
   - Divide el código en tokens como identificadores, palabras clave y operadores.
@@ -157,7 +169,7 @@ Este proyecto implementa un compilador funcional que procesa código fuente hast
   - compilador.lr: Archivo que contiene la tabla LR utilizada por el analizador sintáctico.
   - Documentacion: Documento que explica el diseño y las decisiones de implementación.
 
-# Ejemplos input
+### Ejemplos input
 
 **Cadena (semánticamente incorrecta): 
 int main(){
@@ -201,3 +213,5 @@ int main() {
 ![Captura de pantalla 2024-11-26 055445](https://github.com/user-attachments/assets/03040d6d-ffcf-4db2-ae9e-24f72650d963)
 
 ![Captura de pantalla 2024-11-26 055512](https://github.com/user-attachments/assets/f7cdf34c-6f5e-4838-a19e-1e8e477ad8dc)
+
+
