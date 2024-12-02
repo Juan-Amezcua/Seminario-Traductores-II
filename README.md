@@ -214,4 +214,43 @@ int main() {
 
 ![Captura de pantalla 2024-11-26 055512](https://github.com/user-attachments/assets/f7cdf34c-6f5e-4838-a19e-1e8e477ad8dc)
 
+## Compilador con Generación de Código Ensamblador 8086
 
+<a href="https://github.com/Juan-Amezcua/Seminario-Traductores-II/tree/main/09_Generador_Codigo">Archivos de esta sección - Compilador con Generación de Código Ensamblador 8086 </a><br>
+
+Este proyecto implementa un compilador que procesa un archivo fuente en C, realizando todas las fases principales de la compilación hasta generar código ensamblador compatible con el procesador 8086.
+
+### Descripción General
+
+**Analizador Léxico:** Divide el código fuente en tokens (identificadores, palabras clave, operadores, etc.) y detecta errores léxicos.
+
+**Analizador Sintáctico:** Construye un árbol sintáctico basado en la gramática definida, validando la estructura del programa.
+
+**Analizador Semántico:** Asegura la validez lógica del programa verificando tipos de datos, uso de variables, funciones y otras reglas semánticas. Incluye una tabla de símbolos que organiza y rastrea identificadores por ámbito.
+
+**Generación de Representación Intermedia (IR):** Convierte el árbol sintáctico en una representación intermedia que facilita la traducción a ensamblador.
+
+**Generación de Código Ensamblador:** Produce código ensamblador 8086 a partir del IR, utilizando instrucciones adecuadas para inicialización de datos, control de flujo, operaciones aritméticas, etc.
+
+### Características Principales
+
+**Compatibilidad con C básico:** Admite funciones, variables, expresiones aritméticas, control de flujo (if, while), entre otros.
+
+**Generación Automática de Código Ensamblador:** Convierte el código fuente en un archivo .asm que puede ensamblarse y ejecutarse.
+
+**Gestión de Ámbitos:** Soporte para anidamiento de funciones y bloques con alcance léxico bien definido.
+
+**Subrutinas Incorporadas:** Incluye soporte para impresión básica en consola (print).
+
+**Manejo de Errores:** Detecta y reporta errores léxicos, sintácticos y semánticos de manera detallada.
+
+- **Estructura de Archivos**
+  - main.py: Punto de entrada que coordina todas las fases de compilación.
+  - categoria_token.py: Enumera las categorías de tokens léxicos.
+  - analizador_lexico.py: Realiza el análisis léxico.
+  - analizador_sintactico.py: Implementa el análisis sintáctico y la construcción del árbol sintáctico.
+  - analizador_semantico.py: Verifica reglas semánticas usando la tabla de símbolos.
+  - tabla_simbolos.py: Maneja la tabla de símbolos.
+  - generador_ir.py: Genera la representación intermedia (IR).
+  - generador_codigo.py: Traduce el IR a código ensamblador 8086.
+  - compilador.lr: Archivo que contiene la tabla LR utilizada por el analizador sintáctico.
