@@ -244,7 +244,8 @@ Este proyecto implementa un compilador que procesa un archivo fuente en C, reali
 
 **Manejo de Errores:** Detecta y reporta errores léxicos, sintácticos y semánticos de manera detallada.
 
-- **Estructura de Archivos**
+## Estructura de Archivos
+
   - main.py: Punto de entrada que coordina todas las fases de compilación.
   - categoria_token.py: Enumera las categorías de tokens léxicos.
   - analizador_lexico.py: Realiza el análisis léxico.
